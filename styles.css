@@ -1,0 +1,21 @@
+body {
+    background-color: powderblue;
+}
+.main {
+    text-align: center;
+}
+ 
+h1 {
+    color: black;
+}
+
+.fwd {
+    color: #9999;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#fwdjr {
+    font-style: bold;
+    font-size: 20px;
+}
