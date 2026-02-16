@@ -4,7 +4,6 @@
 <title>Table</title>
 </head>
 <body>
-<table rows="4" cols="4" border="10" cellspacing="10" cellpading="10">
 <tr><th rowspan="1" colspan="2"></th><tr>
 <tr><th rowspan="2" colspan="1">Average</th></tr>
 <tr><th rowspan="1" colspan="2">Red eyes</th></tr>
@@ -22,7 +21,5 @@
 <td>0.002</td>
 <td>43%</td>
 </tr>
-</table>
-
 </body>
 </html>

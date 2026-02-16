@@ -1,0 +1,32 @@
+<!-- css animation example -->>
+<html>
+<head>
+<style>
+  .box {
+    width: 120px;
+    height: 120px;
+    background-color: lightgreen;
+
+    /* ANIMATION PROPERTIES */
+    animation-name: moveBox;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes moveBox {
+    from {
+      transform: translateX(200px);
+    }
+    to {
+      transform: translateX(800px);
+    }
+  }
+</style>
+</head>
+<body>
+
+  <div class="box"></div>
+
+</body>
+</html>
+<img src="transition vs animation.jpg" alt="image not found">

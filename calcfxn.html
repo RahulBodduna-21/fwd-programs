@@ -1,0 +1,30 @@
+<!-- css function calc example -->
+<html>
+<head>
+  <title>CSS calc() Demo</title>
+  <style>
+    .container {
+      width: 100%;
+      border: 2px solid black;
+      padding: 20px;
+    }
+
+    .box {
+      height: 100px;
+      background-color: lightblue;
+
+      /* width = full container width minus 100px */
+      width: calc(100% - 400px); /* calc(a - b)*/
+    }
+  </style>
+</head>
+<body>
+
+  <h3>CSS calc() Example</h3>
+
+  <div class="container">
+    <div class="box"></div>
+  </div>
+
+</body>
+</html>
