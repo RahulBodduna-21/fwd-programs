@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <script>
+            let numbers=[10,15,20,25,30];
+            let n1=numbers.map(a=>a+5);
+            document.write("Original values are "+numbers+"<br>");
+            document.write("Map values are "+n1+"<br>");
+            let n2=numbers.filter(a=>a>20)
+            document.write("Filter values are "+n2+"<br>");
+            let n3 = numbers.reduce((acc,a)=>acc+a,0)
+            document.write("Reduce values are "+n3+"<br>");
+        </script>
+    </body>
+</html>
